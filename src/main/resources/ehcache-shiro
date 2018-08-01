@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache updateCheck="false" name="shiroCache">
+    <defaultCahce
+            maxElementsInMemory="1000"
+            eternal="false"
+            timeToIDleSeconds="120"
+            timeToLiveSeconds="120"
+            overflowToDisk="false"
+            diskPersistent="false"
+            disExpiryThreadIntervalSeconds="120"
+    />
+</ehcache>
